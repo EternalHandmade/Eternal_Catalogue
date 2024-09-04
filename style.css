@@ -2,3 +2,18 @@
     height:40vh;
     margin-bottom: 20px;
 }
+
+.top{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+.cta{
+
+    background:purple;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    border-radius:9px;
+   
+}
