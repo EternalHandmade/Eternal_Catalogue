@@ -1,8 +1,11 @@
 .cat{
     height:40vh;
     margin-bottom: 20px;
+    transition: 500ms;
 }
-
+.cat:hover{
+    opacity: 70%;
+}
 .top{
     position:fixed;
     bottom:10px;
@@ -15,5 +18,43 @@
     font-weight:bold;
     padding:10px;
     border-radius:9px;
+   
+}
+
+.acta{
+    color:brown;
+    
+    font-weight: bold;
+}
+.acta:hover{
+    color:black;
+    
+    font-weight: bold;
+}
+#header{
+    position:sticky;
+    background-color: purple;
+    width:100%;
+   padding-bottom:3px;
+    top:0px;
+    color:white;
+    text-align: center;
+}
+ol li,ol  a{
+    font-size:20px;
+    color:white;
+    list-style-type: none;
+}
+
+#catt li{
+    padding:3px;
+    list-style: none;
+    color:purple;
+    font-size:20px;
+    margin:10px;
+}
+#catt a{
+    color:purple;
+    text-decoration: none;
    
 }
